@@ -19,5 +19,5 @@ jobs:
         with:
           args: deploy --only functions,hosting
         env:
-          GCP_SA_KEY: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_FIERY_ARTIFACT_342404 }}
+          GCP_SA_KEY: ${{ secrets.GCP_SA_KEY }}
           
